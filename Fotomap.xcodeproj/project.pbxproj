@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26293EA619306DA60088DB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EA519306DA60088DB76 /* Foundation.framework */; };
+		26293EA819306DA60088DB76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EA719306DA60088DB76 /* CoreGraphics.framework */; };
+		26293EAA19306DA60088DB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EA919306DA60088DB76 /* UIKit.framework */; };
+		26293EB019306DA60088DB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26293EAE19306DA60088DB76 /* InfoPlist.strings */; };
+		26293EB219306DA60088DB76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26293EB119306DA60088DB76 /* main.m */; };
+		26293EB619306DA60088DB76 /* FTMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26293EB519306DA60088DB76 /* FTMPAppDelegate.m */; };
+		26293EB819306DA60088DB76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26293EB719306DA60088DB76 /* Images.xcassets */; };
+		26293EBF19306DA60088DB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EBE19306DA60088DB76 /* XCTest.framework */; };
+		26293EC019306DA60088DB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EA519306DA60088DB76 /* Foundation.framework */; };
+		26293EC119306DA60088DB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EA919306DA60088DB76 /* UIKit.framework */; };
+		26293EC919306DA60088DB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26293EC719306DA60088DB76 /* InfoPlist.strings */; };
+		26293ECB19306DA60088DB76 /* FotomapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26293ECA19306DA60088DB76 /* FotomapTests.m */; };
+		26293ED519306F120088DB76 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26293ED419306F120088DB76 /* Storyboard.storyboard */; };
+		26293ED8193071930088DB76 /* FTMPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26293ED7193071930088DB76 /* FTMPHomeViewController.m */; };
+		26293EDA193076050088DB76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293ED9193076050088DB76 /* MapKit.framework */; };
+		26293EDC193079830088DB76 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26293EDB193079830088DB76 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26293EC219306DA60088DB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26293E9A19306DA60088DB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26293EA119306DA60088DB76;
+			remoteInfo = Fotomap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26293EA219306DA60088DB76 /* Fotomap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotomap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26293EA519306DA60088DB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26293EA719306DA60088DB76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26293EA919306DA60088DB76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26293EAD19306DA60088DB76 /* Fotomap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fotomap-Info.plist"; sourceTree = "<group>"; };
+		26293EAF19306DA60088DB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26293EB119306DA60088DB76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26293EB319306DA60088DB76 /* Fotomap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fotomap-Prefix.pch"; sourceTree = "<group>"; };
+		26293EB419306DA60088DB76 /* FTMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMPAppDelegate.h; sourceTree = "<group>"; };
+		26293EB519306DA60088DB76 /* FTMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMPAppDelegate.m; sourceTree = "<group>"; };
+		26293EB719306DA60088DB76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26293EBD19306DA60088DB76 /* FotomapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotomapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26293EBE19306DA60088DB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26293EC619306DA60088DB76 /* FotomapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FotomapTests-Info.plist"; sourceTree = "<group>"; };
+		26293EC819306DA60088DB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26293ECA19306DA60088DB76 /* FotomapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FotomapTests.m; sourceTree = "<group>"; };
+		26293ED419306F120088DB76 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		26293ED6193071930088DB76 /* FTMPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMPHomeViewController.h; sourceTree = "<group>"; };
+		26293ED7193071930088DB76 /* FTMPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMPHomeViewController.m; sourceTree = "<group>"; };
+		26293ED9193076050088DB76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		26293EDB193079830088DB76 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26293E9F19306DA60088DB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293EA819306DA60088DB76 /* CoreGraphics.framework in Frameworks */,
+				26293EAA19306DA60088DB76 /* UIKit.framework in Frameworks */,
+				26293EDA193076050088DB76 /* MapKit.framework in Frameworks */,
+				26293EA619306DA60088DB76 /* Foundation.framework in Frameworks */,
+				26293EDC193079830088DB76 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26293EBA19306DA60088DB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293EBF19306DA60088DB76 /* XCTest.framework in Frameworks */,
+				26293EC119306DA60088DB76 /* UIKit.framework in Frameworks */,
+				26293EC019306DA60088DB76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26293E9919306DA60088DB76 = {
+			isa = PBXGroup;
+			children = (
+				26293EAB19306DA60088DB76 /* Fotomap */,
+				26293EC419306DA60088DB76 /* FotomapTests */,
+				26293EA419306DA60088DB76 /* Frameworks */,
+				26293EA319306DA60088DB76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26293EA319306DA60088DB76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26293EA219306DA60088DB76 /* Fotomap.app */,
+				26293EBD19306DA60088DB76 /* FotomapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26293EA419306DA60088DB76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26293EDB193079830088DB76 /* AssetsLibrary.framework */,
+				26293ED9193076050088DB76 /* MapKit.framework */,
+				26293EA519306DA60088DB76 /* Foundation.framework */,
+				26293EA719306DA60088DB76 /* CoreGraphics.framework */,
+				26293EA919306DA60088DB76 /* UIKit.framework */,
+				26293EBE19306DA60088DB76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26293EAB19306DA60088DB76 /* Fotomap */ = {
+			isa = PBXGroup;
+			children = (
+				26293EB419306DA60088DB76 /* FTMPAppDelegate.h */,
+				26293EB519306DA60088DB76 /* FTMPAppDelegate.m */,
+				26293ED6193071930088DB76 /* FTMPHomeViewController.h */,
+				26293ED7193071930088DB76 /* FTMPHomeViewController.m */,
+				26293EB719306DA60088DB76 /* Images.xcassets */,
+				26293EAC19306DA60088DB76 /* Supporting Files */,
+				26293ED419306F120088DB76 /* Storyboard.storyboard */,
+			);
+			path = Fotomap;
+			sourceTree = "<group>";
+		};
+		26293EAC19306DA60088DB76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26293EAD19306DA60088DB76 /* Fotomap-Info.plist */,
+				26293EAE19306DA60088DB76 /* InfoPlist.strings */,
+				26293EB119306DA60088DB76 /* main.m */,
+				26293EB319306DA60088DB76 /* Fotomap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26293EC419306DA60088DB76 /* FotomapTests */ = {
+			isa = PBXGroup;
+			children = (
+				26293ECA19306DA60088DB76 /* FotomapTests.m */,
+				26293EC519306DA60088DB76 /* Supporting Files */,
+			);
+			path = FotomapTests;
+			sourceTree = "<group>";
+		};
+		26293EC519306DA60088DB76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26293EC619306DA60088DB76 /* FotomapTests-Info.plist */,
+				26293EC719306DA60088DB76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26293EA119306DA60088DB76 /* Fotomap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26293ECE19306DA60088DB76 /* Build configuration list for PBXNativeTarget "Fotomap" */;
+			buildPhases = (
+				26293E9E19306DA60088DB76 /* Sources */,
+				26293E9F19306DA60088DB76 /* Frameworks */,
+				26293EA019306DA60088DB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fotomap;
+			productName = Fotomap;
+			productReference = 26293EA219306DA60088DB76 /* Fotomap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26293EBC19306DA60088DB76 /* FotomapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26293ED119306DA60088DB76 /* Build configuration list for PBXNativeTarget "FotomapTests" */;
+			buildPhases = (
+				26293EB919306DA60088DB76 /* Sources */,
+				26293EBA19306DA60088DB76 /* Frameworks */,
+				26293EBB19306DA60088DB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26293EC319306DA60088DB76 /* PBXTargetDependency */,
+			);
+			name = FotomapTests;
+			productName = FotomapTests;
+			productReference = 26293EBD19306DA60088DB76 /* FotomapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26293E9A19306DA60088DB76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTMP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ActionStack;
+				TargetAttributes = {
+					26293EBC19306DA60088DB76 = {
+						TestTargetID = 26293EA119306DA60088DB76;
+					};
+				};
+			};
+			buildConfigurationList = 26293E9D19306DA60088DB76 /* Build configuration list for PBXProject "Fotomap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26293E9919306DA60088DB76;
+			productRefGroup = 26293EA319306DA60088DB76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26293EA119306DA60088DB76 /* Fotomap */,
+				26293EBC19306DA60088DB76 /* FotomapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26293EA019306DA60088DB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293EB019306DA60088DB76 /* InfoPlist.strings in Resources */,
+				26293EB819306DA60088DB76 /* Images.xcassets in Resources */,
+				26293ED519306F120088DB76 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26293EBB19306DA60088DB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293EC919306DA60088DB76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26293E9E19306DA60088DB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293ED8193071930088DB76 /* FTMPHomeViewController.m in Sources */,
+				26293EB219306DA60088DB76 /* main.m in Sources */,
+				26293EB619306DA60088DB76 /* FTMPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26293EB919306DA60088DB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26293ECB19306DA60088DB76 /* FotomapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26293EC319306DA60088DB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26293EA119306DA60088DB76 /* Fotomap */;
+			targetProxy = 26293EC219306DA60088DB76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26293EAE19306DA60088DB76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26293EAF19306DA60088DB76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26293EC719306DA60088DB76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26293EC819306DA60088DB76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26293ECC19306DA60088DB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26293ECD19306DA60088DB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26293ECF19306DA60088DB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fotomap/Fotomap-Prefix.pch";
+				INFOPLIST_FILE = "Fotomap/Fotomap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26293ED019306DA60088DB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fotomap/Fotomap-Prefix.pch";
+				INFOPLIST_FILE = "Fotomap/Fotomap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26293ED219306DA60088DB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fotomap.app/Fotomap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fotomap/Fotomap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FotomapTests/FotomapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		26293ED319306DA60088DB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fotomap.app/Fotomap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fotomap/Fotomap-Prefix.pch";
+				INFOPLIST_FILE = "FotomapTests/FotomapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26293E9D19306DA60088DB76 /* Build configuration list for PBXProject "Fotomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26293ECC19306DA60088DB76 /* Debug */,
+				26293ECD19306DA60088DB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26293ECE19306DA60088DB76 /* Build configuration list for PBXNativeTarget "Fotomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26293ECF19306DA60088DB76 /* Debug */,
+				26293ED019306DA60088DB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26293ED119306DA60088DB76 /* Build configuration list for PBXNativeTarget "FotomapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26293ED219306DA60088DB76 /* Debug */,
+				26293ED319306DA60088DB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26293E9A19306DA60088DB76 /* Project object */;
+}
